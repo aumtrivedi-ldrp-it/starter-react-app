@@ -1,0 +1,45 @@
+.admin_attendance__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.admin_mark__attendance_container , .admin_view__attendance_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.admin_mark_attendance_slider_container , .admin_view__attendance_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+
+.admin_view__attendance_container{
+    padding: 1rem 3rem;
+}
+.admin_mark_attendance_slider_container>img{
+    clip-path: circle();
+}
+
+.admin_mark__attendance_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

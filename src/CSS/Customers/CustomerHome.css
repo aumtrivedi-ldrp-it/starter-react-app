@@ -1,0 +1,28 @@
+.hom{
+    display: flex;
+    flex-direction: column;
+
+}
+.sub_hom{
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgba(17, 55, 105, 0.837);
+    width: 398px;
+    margin: 24px;
+    display: flex;
+    flex-direction: row;
+}
+.sub_hom h3{
+    padding: 8px;
+}
+.home_icon{
+    font-size: 26px;
+    margin-top: 33px;
+    margin-left: 180px;
+}
+.home_iconn{
+    font-size: 26px;
+    margin-top: 33px;
+    margin-left: 236px;
+}

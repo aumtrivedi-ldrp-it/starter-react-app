@@ -1,0 +1,26 @@
+.loc_box{
+    display: flex;
+    flex-direction: column;
+
+}
+.sub_box{
+    border: 2px solid whitesmoke;
+    padding: 8px;
+    border-radius: 25px;
+    background-color: rgba(17, 55, 105, 0.837);
+    width: 295px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.loc_icon{
+    margin-top: 13px;
+    font-size: 23px;
+}
+.loc_text{
+    display: flex;
+    flex-direction: row
+}
+.loc_text p{
+    margin-left: 17px;
+}

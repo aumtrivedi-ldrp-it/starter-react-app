@@ -1,0 +1,24 @@
+.staff_homepage__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 10rem 1rem;
+  height: auto;
+  background-color: transparent;
+}
+
+.staff_option_selection_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--darkblue);
+  border: 2px solid white;
+  padding: 2em 0;
+  cursor: pointer;
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+}

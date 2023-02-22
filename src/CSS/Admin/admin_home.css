@@ -1,0 +1,39 @@
+.adminhome__logo{
+    align-items: center;
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    background-color: red;
+}
+
+.adminhome__container{
+    margin: auto;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.adminhome__quick_access_container{
+    border: 1px solid white;
+    margin: 2em;
+    background-color: transparent;
+    transition: transform 200ms ease-in-out;
+    color: white;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.adminhome__quick_access_container:hover{
+    background-color: var(--lightblue);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}

@@ -1,0 +1,49 @@
+.customer_search_container {
+  padding: 4rem;
+}
+
+.customer_search_card {
+  padding: 2rem;
+  border: 0.1rem solid white;
+  border-radius: 0.5rem;
+}
+
+.customer_search_page {
+  padding: 4rem;
+}
+
+.customer_image {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 0.5rem;
+}
+
+.customer_search_name {
+  padding: 0.2rem;
+}
+
+.customer_search_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.search_bar_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  border-radius: 0.75rem;
+}
+
+.search_button{
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+}
+
+.search_bar{
+    background-color: white;
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,21 @@
+.recovery_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.recovery_title {
+  color: white;
+  font-weight: bold;
+}
+.recovery_btn {
+  background-color: white;
+  border-radius: 50%;
+  font-size: 26px;
+  color: aqua;
+  margin-left: 11rem;
+  padding-top: 6px;
+  height: 49px;
+  margin-top: 1rem;
+}

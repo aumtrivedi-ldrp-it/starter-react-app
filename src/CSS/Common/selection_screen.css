@@ -1,0 +1,36 @@
+.selection_screen__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 10rem 1rem;
+  height: auto;
+  background-color: transparent;
+}
+
+
+.selection_screen__select_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--darkblue);
+  border: 2px solid white;
+  padding: 4em 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .selection_screen__container{
+    grid-template-columns: auto;
+    margin: 2rem;
+    height: 100%;
+    padding: 1rem;
+  }
+
+}

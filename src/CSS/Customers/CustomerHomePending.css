@@ -1,0 +1,26 @@
+/* .sub_pen{
+    display: flex;
+    flex-direction: column;
+} */
+.pen_box{
+    display: flex;
+    flex-direction: column;
+}
+.sub_pen{
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    border-radius: 25px;
+    width: 398px;
+    margin: 24px;
+}
+.pen_btnn{
+    font-size: large;
+    margin-left: 18rem;
+    color: white;
+    background-color: rgb(42, 195, 241);
+    font-weight: bold;
+    width: 5rem;
+    border: 0px solid rgb(42, 195, 241);
+    border-radius: 9%;
+    padding: 5px;
+}
