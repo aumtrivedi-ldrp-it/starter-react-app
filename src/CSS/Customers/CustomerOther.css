@@ -1,0 +1,28 @@
+.con{
+    display: flex;
+    flex-direction: column;
+
+}
+.sub_con{
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgba(17, 55, 105, 0.837);
+    width: 398px;
+    margin: 24px;
+    display: flex;
+    flex-direction: row;
+}
+.sub_con h3{
+    padding: 8px;
+}
+.customer_icon{
+    font-size: 26px;
+    margin-top: 24px;
+    margin-left: 180px;
+}
+.customer_iconn{
+    font-size: 26px;
+    margin-top: 24px;
+    margin-left: 236px;
+}

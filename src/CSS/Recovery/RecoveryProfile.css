@@ -1,0 +1,27 @@
+.recovery_con{
+    text-align: center;
+    margin-top: 3rem;
+}
+.recovery_sign{
+    background-color:rgb(42, 195, 241);
+    height: 2rem;
+    margin-left: 38rem;
+    margin-top: 4rem;
+    width: 11rem;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.recovery_title{
+    text-align: center;
+}
+.recovery_img{
+    height: 6rem;
+    border-radius: 55%;
+    margin-left: -20rem;
+    width: 6rem;
+}
+.recovery_name{
+    margin-top: -7rem;
+    margin-left: -85px;
+}

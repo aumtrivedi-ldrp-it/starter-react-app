@@ -1,0 +1,38 @@
+.staff__container_grid_content_container_title {
+  color: white;
+  padding: 0.2rem;
+}
+
+.staff__container_grid_content_container_image {
+  height: 3rem;
+  width: 7rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.staff__container_grid_content_container {
+  border: 0.1rem solid white;
+  padding: 2rem;
+}
+
+.staff_approve_do_button {
+  background-color: aqua;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  margin-left: 0.2rem;
+}
+
+.staff_approve_do_button:hover,
+.staff_cancel_do_button:hover {
+  cursor: pointer;
+  padding: 0.4rem;
+}
+
+.staff_cancel_do_button {
+  color: white;
+  border: none;
+  background-color: red;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  margin-left: 0.2rem;
+}

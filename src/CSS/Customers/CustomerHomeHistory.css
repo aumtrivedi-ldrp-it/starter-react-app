@@ -1,0 +1,23 @@
+.his{
+    margin: 2px;
+}
+
+.his_box{
+    border: 2px solid white;
+    padding: 16px;
+  width: 600px;
+    height: 414px;
+}
+.his_hr{
+    width: 17rem;
+}
+.his_box2{
+    border: 2px solid white;
+    padding: 12px;
+    margin-top: 3rem;
+    width: 610px;
+}
+.his_p{
+    margin-left: 29rem;
+    margin-top: -2rem;
+}

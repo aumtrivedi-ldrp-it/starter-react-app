@@ -1,0 +1,25 @@
+.showroom_management__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.showroom_management__box{
+    margin: 0 1em;
+    border: 2px solid white;
+    padding: 2em;
+    width: auto;
+}
+
+.new_showroom__container{
+    text-align: center;
+}
+
+.new_showroom__container>form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}

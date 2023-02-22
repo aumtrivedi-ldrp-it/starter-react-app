@@ -1,0 +1,22 @@
+.do_text_field {
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+.do_text_field {
+  background-color: white;
+}
+
+.do_signature{
+  height: 4rem;
+  width: 5rem;
+}
+
+.do_icon_add{
+  color: black;
+}
+
+.do_text_field_dynamic {
+  margin: 1rem;
+  border-radius: 0.5rem;
+}

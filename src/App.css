@@ -1,0 +1,99 @@
+.link{
+    text-decoration: none;
+}
+
+
+.float{
+    position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color: var(--lightblue);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.float:hover{
+    cursor: pointer;
+}
+
+.float_content{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom_dialog__button{
+    background-color: var(--lightblue);
+    color: white;
+}
+
+.basic_input_field{
+    width: 90%;
+    display: block;
+    background-color: transparent;
+    padding: 1em;
+    color: white;
+    border: 2px solid white;
+    margin: 1em;
+    
+}
+
+.basic_input_field:focus{
+    outline: none !important;
+    border: 2px solid var(--lightblue);
+
+}
+
+.square_blue__button{
+    background-color: var(--lightblue);
+    color: white;
+    outline: none;
+    border: 0;
+    padding: 1em;
+    transition: transform 200ms ease-in-out;
+    -webkit-transition: transform 200ms ease-in-out;
+    -moz-transition: transform 200ms ease-in-out;
+    -ms-transition: transform 200ms ease-in-out;
+    -o-transition: transform 200ms ease-in-out;
+}
+
+.square_blue__button:hover{
+    cursor: pointer;
+    background-color: var(--darkblue);
+    
+}
+
+.logout_button{
+    background-color: rgba(255, 0, 0, 0.83);
+    color: white;
+    outline: none;
+    border: 0;
+    padding: 1em 3em;
+    transition: transform 200ms ease-in-out;
+    -webkit-transition: transform 200ms ease-in-out;
+    -moz-transition: transform 200ms ease-in-out;
+    -ms-transition: transform 200ms ease-in-out;
+    -o-transition: transform 200ms ease-in-out;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    font-size: medium;
+}
+
+.logout_button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    
+}

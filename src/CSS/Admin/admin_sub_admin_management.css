@@ -1,0 +1,16 @@
+.subadmin__container{
+    text-align: center;
+}
+
+.subadmin__image{
+    height: 10rem;
+    width: 10rem;
+    clip-path: circle();
+}
+
+.subadmin__box{
+    margin: 0 1em;
+    border: 2px solid white;
+    padding: 2em;
+    width: auto;
+}
